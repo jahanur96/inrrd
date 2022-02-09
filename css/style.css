@@ -815,6 +815,18 @@ a.list-group-item:focus {
     position: relative;
     cursor: hand
 }
+/* member section */
+.member {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.member img{
+    border-radius: 50%;
+} 
+.directorsName {
+    font-size: 17px;
+}
 
 @media(min-width:767px) {
     .blockquote-centered {
