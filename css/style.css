@@ -400,7 +400,7 @@ a.navbar-brand img {
         height: 75px
     }
     .shrink .navbar-brand img {
-        height: 45px
+        /* height: 45px */
     }
     .navbar.shrink {
         min-height: 50px
@@ -481,17 +481,17 @@ a.navbar-brand img {
 
 .slide-one {
     background: url(../images/church-mountain-bg.jpg) no-repeat;
-    background-size: cover
+    background-size: cover;
 }
 
 .slide-two {
     background-repeat:no-repeat;
-    background-size: cover
+    background-size: cover;
 }
 
 .slide-three {
     background: url(../images/church-man-hope.jpg) no-repeat;
-    background-size: cover
+    background-size: cover;
 }
 
 .event-cta {
@@ -827,6 +827,12 @@ a.list-group-item:focus {
 .directorsName {
     font-size: 17px;
 }
+.SingleMemberImage {
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+}
+.publicationsTitle p,.publicationsTitle span{text-align: left; padding:0 5px;}
 
 @media(min-width:767px) {
     .blockquote-centered {
